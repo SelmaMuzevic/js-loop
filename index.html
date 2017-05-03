@@ -14,11 +14,11 @@
         let hello = "Hello World!";
         console.log(hello);
 
-        const size = 10;
-        for (let i = 0; i < size; i = i + 1) {
+        const size = 4;
+        for (let i = 4; i >= 0; i = i - 1) {
             // i is a number
             let str = " ".repeat(size - i);
-            str += i.toString().repeat(i * 2 + 1);
+            str += (size - i).toString().repeat(i * 2 + 1);
             console.log(str);
         }
     </script>
